@@ -3,8 +3,38 @@
 registry = "test"
 
 [[package]]
+name = "chriscerie/roact-spring"
+version = "1.1.6"
+dependencies = [["Promise", "evaera/promise@4.0.0"], ["React", "roblox/roact@1.4.4"], ["TestEZ", "roblox/testez@0.4.1"]]
+
+[[package]]
 name = "evaera/promise"
 version = "4.0.0"
+dependencies = []
+
+[[package]]
+name = "kampfkarren/roact-hooks"
+version = "0.3.0"
+dependencies = []
+
+[[package]]
+name = "roblox/roact"
+version = "1.4.4"
+dependencies = []
+
+[[package]]
+name = "roblox/roact-rodux"
+version = "0.3.0"
+dependencies = [["Roact", "roblox/roact@1.4.4"], ["Rodux", "roblox/rodux@3.0.0"]]
+
+[[package]]
+name = "roblox/rodux"
+version = "3.0.0"
+dependencies = []
+
+[[package]]
+name = "roblox/testez"
+version = "0.4.1"
 dependencies = []
 
 [[package]]
@@ -18,6 +48,11 @@ version = "2.4.8"
 dependencies = [["Promise", "evaera/promise@4.0.0"], ["Signal", "sleitnick/signal@2.0.3"], ["Symbol", "sleitnick/symbol@2.0.1"], ["Trove", "sleitnick/trove@1.5.1"]]
 
 [[package]]
+name = "sleitnick/input"
+version = "2.3.0"
+dependencies = [["Signal", "sleitnick/signal@2.0.3"], ["Trove", "sleitnick/trove@1.5.1"]]
+
+[[package]]
 name = "sleitnick/knit"
 version = "1.7.0"
 dependencies = [["Comm", "sleitnick/comm@1.0.1"], ["Promise", "evaera/promise@4.0.0"]]
@@ -25,6 +60,16 @@ dependencies = [["Comm", "sleitnick/comm@1.0.1"], ["Promise", "evaera/promise@4.
 [[package]]
 name = "sleitnick/option"
 version = "1.0.5"
+dependencies = []
+
+[[package]]
+name = "sleitnick/shake"
+version = "1.1.0"
+dependencies = []
+
+[[package]]
+name = "sleitnick/signal"
+version = "1.5.0"
 dependencies = []
 
 [[package]]
@@ -38,11 +83,21 @@ version = "2.0.1"
 dependencies = []
 
 [[package]]
+name = "sleitnick/timer"
+version = "1.1.2"
+dependencies = [["Signal", "sleitnick/signal@1.5.0"]]
+
+[[package]]
 name = "sleitnick/trove"
 version = "1.5.1"
 dependencies = []
 
 [[package]]
+name = "solarhorizon/rodux-hooks"
+version = "0.3.1"
+dependencies = [["Roact", "roblox/roact@1.4.4"]]
+
+[[package]]
 name = "yourname/my-roblox-game"
 version = "0.1.0"
-dependencies = [["Component", "sleitnick/component@2.4.8"], ["Knit", "sleitnick/knit@1.7.0"]]
+dependencies = [["Component", "sleitnick/component@2.4.8"], ["Hooks", "kampfkarren/roact-hooks@0.3.0"], ["Input", "sleitnick/input@2.3.0"], ["Knit", "sleitnick/knit@1.7.0"], ["Roact", "roblox/roact@1.4.4"], ["RoactRodux", "roblox/roact-rodux@0.3.0"], ["RoactSpring", "chriscerie/roact-spring@1.1.6"], ["Rodux", "roblox/rodux@3.0.0"], ["Roduxhooks", "solarhorizon/rodux-hooks@0.3.1"], ["Shake", "sleitnick/shake@1.1.0"], ["Signal", "sleitnick/signal@2.0.3"], ["Timer", "sleitnick/timer@1.1.2"], ["Trove", "sleitnick/trove@1.5.1"]]
